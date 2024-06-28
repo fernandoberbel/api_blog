@@ -1,0 +1,19 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "author": {
+    "name": "Fernando Berbel",
+    "url": "https://github.com/fernandoberbel"
+  },
+  "description": "First API with Fastify",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch ./src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "pino-pretty": "^11.2.1"
+  }
+}
